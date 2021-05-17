@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.background {
+  height: auto;
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #111;
+}
+#live {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  position: relative;
+}
+h1 {
+  text-align: left !important;
+  margin: 10px 0px;
+}
+hr {
+  color: gray;
+  margin-top: 30px;
+}
+#live span {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: #fa0202;
+  border-radius: 50%;
+  top: 10px;
+  left: 47%;
+}
+#country {
+  background-color: #3498db;
+}
+#confirm {
+  background-color: #f1c40f;
+}
+#recover {
+  background-color: #58d68d;
+}
+#deathCard {
+  background-color: #e67e22;
+}
+#active {
+  background-color: #2874a6;
+}
+#update {
+  background-color: #dc7633;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  color: #fff;
+}
+.grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+.card {
+  height: auto;
+  padding: 25px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card h1 {
+  text-align: center !important;
+}
+.card:hover {
+  transform: translateY(-10px);
+  transition: all 0.6s ease;
+}
+span {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+h1 {
+  /* color: ; */
+  font-size: 2.9rem;
+  margin: 20px 0px;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 66px rgba(16, 16, 16, 0.4);
+}
+
+@media (max-width: 1024px) {
+  .background {
+    padding-bottom: 900px !important;
+  }
+  #live span {
+    left: 46%;
+  }
+}
+@media (max-width: 768px) {
+  .background {
+    padding-bottom: 500px !important;
+  }
+  #live span {
+    left: 45%;
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+@media (max-width: 550px) {
+  .background {
+    padding-bottom: 200px !important;
+  }
+  #live span {
+    left: 42%;
+  }
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .card h1 {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 507px) {
+  .background {
+    padding-bottom: 60px !important;
+  }
+  #live span {
+    left: 42%;
+  }
+}
+@media (max-width: 414px) {
+  .background {
+    padding-bottom: 200px !important;
+  }
+  #live span {
+    left: 40%;
+  }
+}
+@media (max-width: 400px) {
+  .background {
+    padding-bottom: 150px !important;
+  }
+  #live span {
+    left: 39%;
+  }
+}

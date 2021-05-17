@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./img/coronavirus.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="app.css" />
+    <title>COVID-19 Tracker</title>
+  </head>
+  <body>
+    <section class="background">
+      <div class="container">
+        <p id="live"><span id="span"></span>Live</p>
+        <h2>COVID-19 CORONAVIRUS TRACKER</h2>
+        <h1>New Case</h1>
+        <div class="grid">
+          <div class="card" id="confirm">
+            <h2><span>Daily</span>CONFIRMED</h2>
+            <h1 id="dailyConfirmedCase"></h1>
+          </div>
+          <div class="card" id="recover">
+            <h2><span>Daily</span>RECOVERED</h2>
+            <h1 id="dailyRecoveredCase"></h1>
+          </div>
+          <div class="card" id="deathCard">
+            <h2><span>Daily</span>DEATH</h2>
+            <h1 id="dailyDeath"></h1>
+          </div>
+          <div class="card" id="update">
+            <h2><span>Last</span>UPDATED</h2>
+            <h1 id="dailyUpdateCase"></h1>
+          </div>
+        </div>
+        <hr />
+        <h1>Total Case in INDIA</h1>
+        <div class="grid">
+          <div class="card" id="confirm">
+            <h2><span>Total</span>CONFIRMED</h2>
+            <h1 id="confirmedCase"></h1>
+          </div>
+          <div class="card" id="recover">
+            <h2><span>Total</span>RECOVERED</h2>
+            <h1 id="recoveredCase"></h1>
+          </div>
+          <div class="card" id="deathCard">
+            <h2><span>Total</span>DEATH</h2>
+            <h1 id="death"></h1>
+          </div>
+          <div class="card" id="active">
+            <h2><span>Total</span>ACTIVE</h2>
+            <h1 id="activeCase"></h1>
+          </div>
+          <div class="card" id="update">
+            <h2><span>Last</span>UPDATED</h2>
+            <h1 id="updateCase"></h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
